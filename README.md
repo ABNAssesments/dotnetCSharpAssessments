@@ -29,6 +29,7 @@ Create a .Net 8 Application that takes data representing a 7 segment display* an
 Even if you haven't heard the name "seven-segment display" before, you've probably seen quite a few in your lifetime. They appear on pretty much every piece of electronic equipment that needs to display numbers for any reason, like the timer on a microwave oven, the display on a CD player, or the time on your digital wristwatch.
 They're called seven-segment displays because they're actually made up of seven "segments" — seven individual lights (LEDs or otherwise) that light up in different patterns that represent any of the ten digits (0 - 9).
 
-![image](https://github.com/user-attachments/assets/df4f2868-d90e-4ff0-ac0c-64bd2230c514) ![image](https://github.com/user-attachments/assets/40630ad4-e64d-4c23-8f60-88f8d8acbcba)
+![image](https://github.com/user-attachments/assets/c10bff50-4e3b-4825-ae70-1a1374c87725) ![image](https://github.com/user-attachments/assets/ae42a5b0-cc28-4c44-91fa-68f6ee12f900)
+
 
 
