@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using BenchmarkDotNet.Running;
+
+public class Program
+{
+        public static void Main(string[] args)
+        {
+            var summary = BenchmarkRunner.Run<SevenSegmentReaderBenchmarks>();
+        }
+}
