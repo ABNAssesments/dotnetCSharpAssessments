@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Core Launch (console)",
+            "name": "Launch Console App",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -14,11 +14,6 @@
             "cwd": "${workspaceFolder}/SevenSegmentReader",
             "console": "internalConsole",
             "stopAtEntry": false
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach"
         },
         {
             "name": "Run Tests",
@@ -33,6 +28,22 @@
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "stopAtEntry": false
-          }
+          },
+          {
+            "name": "Run Benchmarks",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-release",
+            "program": "${workspaceFolder}/SevenSegmentReader.Benchmarks/bin/Release/net8.0/SevenSegmentReader.Benchmarks.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SevenSegmentReader.Benchmarks",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+          },
+          {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
     ]
 }
