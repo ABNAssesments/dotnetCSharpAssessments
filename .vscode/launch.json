@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Console App",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/SevenSegmentReader/bin/Debug/net8.0/SevenSegmentReader.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SevenSegmentReader",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Run Tests",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "dotnet",
+            "args": [
+              "test",
+              "${workspaceFolder}/SevenSegmentReader.Tests/SevenSegmentReader.Tests.csproj"
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+          },
+          {
+            "name": "Run Benchmarks",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-release",
+            "program": "${workspaceFolder}/SevenSegmentReader.Benchmarks/bin/Release/net8.0/SevenSegmentReader.Benchmarks.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SevenSegmentReader.Benchmarks",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+          },
+          {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+    ]
+}
