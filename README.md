@@ -15,7 +15,7 @@ Create a .Net 8 Application that takes data representing a 7 segment display* an
 
 2. **Unit Testing**
    - Write 1 or more Unit tests that proof the function algorithm is working and identifying the correct number
-   - **(BONUS)** Can you think of a way to benchmark the performance of the algorythm you created ?
+   - **(BONUS)** Can you think of a way to benchmark the performance of the algorithm you created ?
 
 #### Evaluation Criteria:
 
